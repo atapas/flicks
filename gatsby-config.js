@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "app",
+    siteUrl: `https://flicks.gatsbyjs.io/`,
   },
   plugins: [
     "gatsby-plugin-styled-components",
