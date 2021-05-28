@@ -2,7 +2,7 @@ require('dotenv').config();
 
 module.exports = {
   siteMetadata: {
-    title: "app",
+    title: "Flicks",
     siteUrl: `https://flicks.gatsbyjs.io/`,
   },
   plugins: [

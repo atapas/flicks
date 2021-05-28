@@ -1,18 +1,23 @@
-import * as React from "react"
-import { GlobalStyles } from '../styles/GlobalStyles';
-import BookList from '../components/BookList';
+import * as React from "react";
+import styled from "styled-components";
+import Categories from '../components/Categories';
+import BookList from "../components/BookList";
+import Layout from "../components/Layout";
+
+const Main = styled.div`
+  display: flex;
+`;
 
 // markup
 const IndexPage = () => {
   return (
-    
-      <main>
-        <title>Home Page</title>
-        <GlobalStyles />
+    <Layout>
+      <Main>
+        <Categories />
         <BookList />
-      </main>
-    
-  )
-}
+      </Main>
+    </Layout>
+  );
+};
 
-export default IndexPage
+export default IndexPage;
