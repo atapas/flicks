@@ -1,5 +1,15 @@
 import React from 'react';
 import {useStaticQuery, graphql} from 'gatsby';
+import styled from "styled-components"; 
+
+import Book from './Book';
+
+const Container = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+`; 
 
 const BookList = () => {
     const data = useStaticQuery(graphql`
@@ -24,14 +34,15 @@ const BookList = () => {
     }
   `);
     const books = data.allBooks.nodes;
+    books.sort((a,b) => { return b.rating - a.rating});
     console.log(books);
     return (
-        <div className="container">
+        <Container>
             {books.map((book, index) => (
-                <span key={index}>{book.title}</span>
+                <Book key={index} book={book} />
                 ))
             }
-        </div>
+        </Container>
     )
 };
 
