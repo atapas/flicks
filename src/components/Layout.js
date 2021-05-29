@@ -1,5 +1,5 @@
 import React from "react";
-import Header from './header';
+import Header from './Header';
 import { useStaticQuery, graphql } from "gatsby";
 import styled from "styled-components";
 import { GlobalStyles } from '../styles/GlobalStyles';
