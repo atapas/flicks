@@ -18,7 +18,7 @@ export default function Header(props) {
   return (
       <header style={{ marginBottom: `1.5rem` }}>
         <Link to="/" style={{ textShadow: `none`, backgroundImage: `none`}}>
-          <Book size={32}/>
+          <Book size={28}/>
           <h1 style={{ display: `inline` }}>{props.title}</h1>
         </Link>
         <ListContainer>
