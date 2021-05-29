@@ -1,5 +1,6 @@
 import React from 'react';
-import styled from "styled-components"; 
+import styled from "styled-components";
+import ReactStars from 'react-stars';
 
 import Topic from './Topic';
 
@@ -36,7 +37,12 @@ const Book = props => {
             <Title>{book.title}</Title> { ' ' }
             by <span>{book.author.join(', ')}</span>
             <p>{book.subtitle}</p>
-            <div>{book.rating}</div>
+            <ReactStars
+                count={5}
+                value={book.rating}
+                size={24}
+                color2={'#00ebff'}
+                edit={false} />
         </Container>
     )
 }
