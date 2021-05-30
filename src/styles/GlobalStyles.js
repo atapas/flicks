@@ -24,7 +24,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   a:hover {
-    color: #e7cde7
+    color: #ff8299;
   }
   
   input[type="text"] {

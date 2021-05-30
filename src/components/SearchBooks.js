@@ -17,17 +17,22 @@ const SearchBox = styled.input`
 `;
 
 const Result = styled.div`
+    display: flex;
+    flex-direction: column;
     position: absolute;
     right: 14px;
     top: 76px;
     z-index: 50;
     background-color: #071f2b;
-    min-width: 337px;
     max-height: 450px;
     overflow-y: auto;
     border-radius: 4px;
     padding: 10px;
     border: 1px solid #acacac;
+    @media (max-width: 500px) {
+        top: 121px;
+        width: 85%;
+    }
 `;
 
 const ResultRow = props => {
