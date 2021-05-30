@@ -38,8 +38,8 @@ const ResultRow = props => {
                 alt={item.title} 
                 width="40px" 
                 height="40px"/> {' '}
-                <span>{item.title} by {item.author.join(', ')}</span>
-                <p style={{marginLeft:'50px'}}>{item.subtitle}</p>
+            <span>{item.title} by {item.author.join(', ')}</span>
+            <p style={{marginLeft:'50px'}}>{item.subtitle}</p>
         </>
     )
 }
