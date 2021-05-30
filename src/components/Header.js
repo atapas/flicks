@@ -26,7 +26,7 @@ const Container = styled.header`
 const Title = styled.span`
   font-size: 2.5rem;
   font-weight: bold;
-  color: #ff4f6e;
+  color: #00ebff;
 `;
 
 
@@ -35,7 +35,7 @@ export default function Header(props) {
   return (
       <Container>
         <Link to="/" style={{ textShadow: `none`, backgroundImage: `none`}}>
-          <Book color='#ff4f6e' size={28} />
+          <Book color='#00ebff' size={28} />
           <Title>{props.title}</Title>
         </Link>
         <ListContainer>

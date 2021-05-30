@@ -23,7 +23,7 @@ const Result = styled.div`
     right: 14px;
     top: 76px;
     z-index: 50;
-    background-color: #071f2b;
+    background-color: #0b0f31;
     max-height: 450px;
     overflow-y: auto;
     border-radius: 4px;
@@ -38,15 +38,21 @@ const Result = styled.div`
 const ResultRow = props => {
     const item = props.item;
     return(
-        <>
-            <img 
-                src={item.cover} 
-                alt={item.title} 
-                width="40px" 
-                height="40px"/> {' '}
-            <span>{item.title} by {item.author.join(', ')}</span>
-            <p style={{marginLeft:'50px'}}>{item.subtitle}</p>
-        </>
+        <div style={{display: 'flex', alignItems: 'center'}}>
+            <div>
+                <img 
+                    src={item.cover} 
+                    alt={item.title} 
+                    width="40px" 
+                    height="40px"/>
+            </div>
+            <div style={{'margin': '0 auto auto 0.5rem'}}>
+                <span style={{fontSize: '20px', color: '#FFFFFF', fontWeight: 'bold'}}>
+                    {item.title} by {item.author.join(', ')}
+                </span>
+                <div style={{color: '#acacac', marginTop: '3px'}}>{item.subtitle}</div>
+            </div>
+        </div>
     )
 }
 
