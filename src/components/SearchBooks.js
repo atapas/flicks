@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useStaticQuery, graphql, Link } from "gatsby";
 import styled from "styled-components";
 import * as JsSearch from "js-search";
+import _ from "lodash";
 
 const SearchBox = styled.input`
     font-size: 18px;
@@ -121,10 +122,7 @@ const SearchBooks = () => {
                         <div>
                             <ul key={item["id"]}>
                                 <li>
-                                    <Link
-                                        to={`/book-details`}
-                                        state={{ id: item["_id"] }}
-                                    >
+                                    <Link to={`/${_.kebabCase(item.title)}`}>
                                         <ResultRow item={item} />    
                                     </Link>
                                 </li>

@@ -8,7 +8,8 @@ import SearchBooks from './SearchBooks';
 const ListContainer = styled.ul`
   margin: 0;
   padding: 0;
-  display: inline-block;
+  display: flex;
+  align-items: center;
 `;
 
 const Container = styled.header`

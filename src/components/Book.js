@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from "styled-components";
 import ReactStars from 'react-stars';
+import _ from 'lodash';
+import { Link } from 'gatsby';
 
 import Topic from './Topic';
 
@@ -27,22 +29,24 @@ const Book = props => {
     const book = props.book;
     return(
         <Container>
-            <Topic name={book.topic} />
-            <div>
-            {
-                book.cover &&
-                    <ResponsiveImage src={book.cover} alt={`${book.title}`} />
-            }
-            </div>
-            <Title>{book.title}</Title> { ' ' }
-            by <span>{book.author.join(', ')}</span>
-            <p>{book.subtitle}</p>
-            <ReactStars
-                count={5}
-                value={book.rating}
-                size={24}
-                color2={'#00ebff'}
-                edit={false} />
+            <Link to={`/${_.kebabCase(book.title)}`}>
+                <Topic name={book.topic} />
+                <div>
+                {
+                    book.cover &&
+                        <ResponsiveImage src={book.cover} alt={`${book.title}`} />
+                }
+                </div>
+                <Title>{book.title}</Title> { ' ' }
+                by <span>{book.author.join(', ')}</span>
+                <p>{book.subtitle}</p>
+                <ReactStars
+                    count={5}
+                    value={book.rating}
+                    size={24}
+                    color2={'#00ebff'}
+                    edit={false} />
+            </Link>
         </Container>
     )
 }
