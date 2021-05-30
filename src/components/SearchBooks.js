@@ -47,7 +47,7 @@ const ResultRow = props => {
                     height="40px"/>
             </div>
             <div style={{'margin': '0 auto auto 0.5rem'}}>
-                <span style={{fontSize: '20px', color: '#FFFFFF', fontWeight: 'bold'}}>
+                <span style={{fontSize: '20px', fontWeight: 'bold'}}>
                     {item.title} by {item.author.join(', ')}
                 </span>
                 <div style={{color: '#acacac', marginTop: '3px'}}>{item.subtitle}</div>

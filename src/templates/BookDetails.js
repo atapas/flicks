@@ -11,6 +11,24 @@ const Container = styled.div`
     align-items: center;
 `;
 
+const AnchorButton = styled.a`
+    display: block;
+    width: auto;
+    height: 25px;
+    background: #00ebff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 25px;
+    text-transform: uppercase;
+
+    &:hover {
+        color: #2e2222;
+    }
+`;
+
 const BookDetails = ({ data }) => {
     const details = data.books;
     console.log(details);
@@ -20,7 +38,10 @@ const BookDetails = ({ data }) => {
             <Container>
                 <h1>{details.title}</h1>
                 <p>
-                    <span>By</span> {} <span style={{fontSize: '20px'}}><b>{details.author.join(', ')}</b></span>
+                    <span>By</span> {}{" "}
+                    <span style={{ fontSize: "20px" }}>
+                        <b>{details.author.join(", ")}</b>
+                    </span>
                 </p>
                 <img
                     src={details.cover}
@@ -33,22 +54,29 @@ const BookDetails = ({ data }) => {
                     count={5}
                     value={details.rating}
                     size={24}
-                    color2={'#00ebff'}
-                    edit={false} />
+                    color2={"#00ebff"}
+                    edit={false}
+                />
 
-                <p style={{fontSize: '20px'}}>
-                    <span><b>Pages</b>: {details.pages}</span> {' | '}
-                    <span><b>Publisher</b>: {details.publisher}</span> {' | '}
-                    <span><b>ISBN</b>: {details.isbn}</span> {' | '}
-                    <a 
-                        href={details.website} 
-                        target="_blank" 
-                        rel="noreferrer">
-                        Website
-                    </a>
+                <p style={{ fontSize: "20px" }}>
+                    <span>
+                        <b>Pages</b>: {details.pages}
+                    </span>{" "}
+                    {" | "}
+                    <span>
+                        <b>Publisher</b>: {details.publisher}
+                    </span>{" "}
+                    {" | "}
+                    <span>
+                        <b>ISBN</b>: {details.isbn}
+                    </span>
                 </p>
 
-                <p style={{fontSize: '25px'}}>{details.description}</p>
+                <p style={{ fontSize: "25px" }}>{details.description}</p>
+
+                <AnchorButton href={details.website} target="_blank" rel="noreferrer">
+                    Go to Website
+                </AnchorButton>
             </Container>
         </Layout>
     );
