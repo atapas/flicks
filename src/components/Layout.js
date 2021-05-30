@@ -7,6 +7,8 @@ import { GlobalStyles } from '../styles/GlobalStyles';
 const Container = styled.div`
   max-width: 90%;
   margin: 1rem auto auto auto;
+  display: flex;
+  flex-direction: column;
 `;
 
 export default function Layout({ children }) {
