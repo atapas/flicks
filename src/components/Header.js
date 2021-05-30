@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import styled from "styled-components";
-import { Book, GitHub } from 'react-feather';
+import { GitHub } from 'react-feather';
 
 import SearchBooks from './SearchBooks';
 
@@ -19,13 +19,19 @@ const Container = styled.header`
   margin-bottom: 1.5rem;
 `;
 
+const Title = styled.span`
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ff4f6e;
+`;
+
+
 
 export default function Header(props) {
   return (
       <Container>
         <Link to="/" style={{ textShadow: `none`, backgroundImage: `none`}}>
-          <Book size={32}/>
-          <h1 style={{ display: `inline` }}>{props.title}</h1>
+          <Title>{props.title}</Title>
         </Link>
         <ListContainer>
           <SearchBooks />

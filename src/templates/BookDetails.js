@@ -20,7 +20,7 @@ const BookDetails = ({ data }) => {
             <Container>
                 <h1>{details.title}</h1>
                 <p>
-                    <span>By</span> {} <b>{details.author.join(', ')}</b>
+                    <span>By</span> {} <span style={{fontSize: '20px'}}><b>{details.author.join(', ')}</b></span>
                 </p>
                 <img
                     src={details.cover}
@@ -36,7 +36,7 @@ const BookDetails = ({ data }) => {
                     color2={'#00ebff'}
                     edit={false} />
 
-                <p>
+                <p style={{fontSize: '20px'}}>
                     <span><b>Pages</b>: {details.pages}</span> {' | '}
                     <span><b>Publisher</b>: {details.publisher}</span> {' | '}
                     <span><b>ISBN</b>: {details.isbn}</span> {' | '}
@@ -48,7 +48,7 @@ const BookDetails = ({ data }) => {
                     </a>
                 </p>
 
-                <p style={{fontSize: '22px'}}>{details.description}</p>
+                <p style={{fontSize: '25px'}}>{details.description}</p>
             </Container>
         </Layout>
     );
