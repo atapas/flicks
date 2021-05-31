@@ -9,7 +9,7 @@ const SearchBox = styled.input`
     padding: 10px;
     margin: 10px;
     background: #071f2b;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
     border-radius: 3px;
     ::placeholder {
         color: #d1d1d1;
@@ -35,26 +35,29 @@ const Result = styled.div`
     }
 `;
 
-const ResultRow = props => {
+const ResultRow = (props) => {
     const item = props.item;
-    return(
-        <div style={{display: 'flex', alignItems: 'center'}}>
+    return (
+        <div style={{ display: "flex", alignItems: "center" }}>
             <div>
-                <img 
-                    src={item.cover} 
-                    alt={item.title} 
-                    width="40px" 
-                    height="40px"/>
+                <img
+                    src={item.cover}
+                    alt={item.title}
+                    width="40px"
+                    height="40px"
+                />
             </div>
-            <div style={{'margin': '0 auto auto 0.5rem'}}>
-                <span style={{fontSize: '20px', fontWeight: 'bold'}}>
-                    {item.title} by {item.author.join(', ')}
+            <div style={{ margin: "0 auto auto 0.5rem" }}>
+                <span style={{ fontSize: "20px", fontWeight: "bold" }}>
+                    {item.title} by {item.author.join(", ")}
                 </span>
-                <div style={{color: '#acacac', marginTop: '3px'}}>{item.subtitle}</div>
+                <div style={{ color: "#acacac", marginTop: "3px" }}>
+                    {item.subtitle}
+                </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
 const SearchBooks = () => {
     const data = useStaticQuery(graphql`
@@ -100,7 +103,7 @@ const SearchBooks = () => {
          */
         dataToSearch.searchIndex = new JsSearch.TfIdfSearchIndex("id");
 
-        dataToSearch.addIndex("title"); 
+        dataToSearch.addIndex("title");
         dataToSearch.addIndex("subtitle");
         dataToSearch.addIndex("author");
         dataToSearch.addDocuments(input); // adds the data to be searched
@@ -134,7 +137,7 @@ const SearchBooks = () => {
                             <ul key={item["id"]}>
                                 <li>
                                     <Link to={`/${_.kebabCase(item.title)}`}>
-                                        <ResultRow item={item} />    
+                                        <ResultRow item={item} />
                                     </Link>
                                 </li>
                             </ul>

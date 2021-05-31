@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import ReactStars from 'react-stars';
+import ReactStars from "react-stars";
 import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
@@ -74,7 +74,11 @@ const BookDetails = ({ data }) => {
 
                 <p style={{ fontSize: "25px" }}>{details.description}</p>
 
-                <AnchorButton href={details.website} target="_blank" rel="noreferrer">
+                <AnchorButton
+                    href={details.website}
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     Go to Website
                 </AnchorButton>
             </Container>

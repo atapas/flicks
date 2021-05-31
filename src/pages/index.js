@@ -4,19 +4,19 @@ import BookList from "../components/BookList";
 import Layout from "../components/Layout";
 
 const Main = styled.div`
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 `;
 
 // markup
 const IndexPage = () => {
-  return (
-    <Layout>
-      <Main>
-        <BookList />
-      </Main>
-    </Layout>
-  );
+    return (
+        <Layout>
+            <Main>
+                <BookList />
+            </Main>
+        </Layout>
+    );
 };
 
 export default IndexPage;
