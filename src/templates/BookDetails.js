@@ -79,7 +79,7 @@ const BookDetails = ({ data }) => {
                     target="_blank"
                     rel="noreferrer"
                 >
-                    Go to Website
+                    Go to the Website
                 </AnchorButton>
             </Container>
         </Layout>
