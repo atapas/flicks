@@ -1,53 +1,38 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="https://flicks.gatsbyjs.io/" target="_blank">
+    <img alt="demo" src="./static/booklist.png" width="100%" height="auto"/>
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  Flicks - Know My Favorite Books
 </h1>
 
-## 🚀 Quick start
+`Flicks` is a project to showcase the intergration bterween `Gatsbyjs` and `HarperDB`. It provides a Gatsby based user interface pulling data from the HarperDB. You can assume it to be a libray showing information of my favorite books!
 
-1.  **Create a Gatsby site.**
+> Please feel free to fork and chage the project whatever ways you need to. If you like the work, please show your support by giving a the repo a star(⭐)
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+## 💻 Demo
+`Flicks` is deployed on the Gatsby Cloud. You can access it using, [https://flicks.gatsbyjs.io/](https://flicks.gatsbyjs.io/)
+## 📚 Quick start
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+1. Clone the project and browse to the project repo.
+2. Install dependencies using `npm install`.
+3. Follow this step-by-step tutorial to setup data with `HarperDB`.
+4. Start the UI using the `gatsby develop` command.
+5. Open the code and start customizing! The app is now running at http://localhost:8000!
 
-2.  **Start developing.**
+## 🖼️ Screenshots
+### The Book List Page
+<img src="./static/booklist.png" alt="book deatils" style="border: 1px solid #acacac"/>
 
-    Navigate into your new site’s directory and start it up.
+### The Book Details Page
+<img src="./static/bookdetails.png" alt="book deatils" style="border: 1px solid #acacac"/>
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+### The Search Component
 
-3.  **Open the code and start customizing!**
+<img src="./static/search.png" alt="search books" style="border: 1px solid #acacac"/>
 
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
+## 🚀 Deploy on Gatsby Cloud
 
 Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
 
