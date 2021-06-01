@@ -14,9 +14,13 @@ const ListContainer = styled.ul`
 
 const Container = styled.header`
     display: flex;
+    -webkit-box-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
     align-items: center;
-    margin-bottom: 1.5rem;
+    background-color: #282d2e;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 
     @media (max-width: 500px) {
         flex-direction: column;

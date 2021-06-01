@@ -5,10 +5,15 @@ import styled from "styled-components";
 import { GlobalStyles } from "../styles/GlobalStyles";
 
 const Container = styled.div`
-    max-width: 90%;
-    margin: 1rem auto auto auto;
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+`;
+
+const Content = styled.main`
+    flex-grow: 1;
+    overflow: auto;
 `;
 
 export default function Layout({ children }) {
@@ -29,7 +34,7 @@ export default function Layout({ children }) {
             <GlobalStyles />
             <Container>
                 <Header title={data.site.siteMetadata.title} />
-                <main>{children}</main>
+                <Content>{children}</Content>
             </Container>
         </>
     );

@@ -7,7 +7,7 @@ import { Link } from "gatsby";
 import Topic from "./Topic";
 
 const Container = styled.div`
-    border: 1px solid #4e4e4e;
+    border: 1px solid #979797;
     border-radius: 4px;
     padding: 0.5rem;
     width: 250px;
