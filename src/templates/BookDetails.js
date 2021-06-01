@@ -4,6 +4,7 @@ import ReactStars from "react-stars";
 import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
+import Topic from "../components/Topic";
 
 const Container = styled.div`
     display: flex;
@@ -37,6 +38,7 @@ const BookDetails = ({ data }) => {
         <Layout>
             <Container>
                 <h1>{details.title}</h1>
+                <Topic name={details.topic} size="40px" />
                 <p>
                     <span>By</span> {}{" "}
                     <span style={{ fontSize: "20px" }}>
