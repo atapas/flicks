@@ -1,0 +1,175 @@
+[
+    {
+        "title": "You Don't Know JS",
+        "id": "92dac9b1-2bbf-5c36-a6a7-ab736dc4c770",
+        "author": [
+            "Kyle Simpson"
+        ],
+        "cover": "https://res.cloudinary.com/atapas/image/upload/v1622356611/book-covers/you_dont_know_js_1_le1xk5.jpg",
+        "description": "No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. As part of the series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the standard upon which JavaScript is built.",
+        "isbn": 9781491904244,
+        "pages": 278,
+        "published": "2015-12-27T00:00:00.000Z",
+        "publisher": "O'Reilly Media",
+        "rating": 5,
+        "subtitle": "ES6 & Beyond. It covers all aspects of javaScript deep down.",
+        "topic": "JavaScript",
+        "website": "https://github.com/getify/You-Dont-Know-JS/tree/master/es6%20&%20beyond"
+    },
+    {
+        "title": "JavaScript for impatient programmers",
+        "id": "aa7662ba-4c1d-534d-81dc-456de3d111fc",
+        "author": [
+            "Dr. Axel Rauschmayer "
+        ],
+        "cover": "https://res.cloudinary.com/atapas/image/upload/v1622541783/book-covers/js_impatient_p3khnh.jpg",
+        "description": "Get started quickly, by initially focusing on modern features. Test-driven exercises and quizzes available for most chapters (sold separately). Covers all essential features of JavaScript, up to and including ES2019. Optional advanced sections let you dig deeper. No prior knowledge of JavaScript is required, but you should know how to program.",
+        "isbn": 1091210098,
+        "pages": 528,
+        "published": "30 August 2019",
+        "publisher": "Independently Published (30 August 2019)",
+        "rating": 5,
+        "subtitle": "This book makes JavaScript less challenging to learn for newcomers, by offering a modern view that is as consistent as possible.",
+        "topic": "JavaScript",
+        "website": "https://exploringjs.com/impatient-js/"
+    },
+    {
+        "title": "Head First HTML5 Programming",
+        "id": "e8f7314f-1534-5369-afc5-b71d2adff203",
+        "author": [
+            "Eric Freeman",
+            "Elisabeth Robson"
+        ],
+        "cover": "https://res.cloudinary.com/atapas/image/upload/v1622541783/book-covers/hf_html5_satkps.jpg",
+        "description": "HTML has been on a wild ride. Sure, HTML started as a mere markup language, but more recently HTML’s put on some major muscle. Now we’ve got a language tuned for building web applications with Web storage, 2D drawing, offline support, sockets and threads, and more. And to speak this language you’ve got to go beyond HTML5 markup and into the world of the DOM, events, and JavaScript APIs. Now you probably already know all about HTML markup (otherwise known as structure) and you know all aboutCSS style (presentation), but what you’ve been missing is JavaScript (behavior). If all you know about are structure and presentation, you can create some great looking pages, but they’re still just pages. When you add behavior with JavaScript, you can create an interactive experience; even better, you can create full blown web applications. Head First HTML5 Programming is your ultimate tour guide to creating web applications with HTML5 and JavaScript, and we give you everything you need to know to build them, including: how to add interactivity to your pages, how to communicate with the world of Web services, and how to use the great new APIs being developed for HTML5.",
+        "isbn": 9781449390549,
+        "pages": 1042,
+        "published": "6 October 2011",
+        "publisher": "O'Reilly Media",
+        "rating": 4.9,
+        "subtitle": "Head First HTML5 Programming is your ultimate tour guide to creating web applications with HTML5 and JavaScript",
+        "topic": "HTML5",
+        "website": "https://www.oreilly.com/library/view/head-first-html5/9781449314712/"
+    },
+    {
+        "title": "Eloquent JavaScript, Second Edition",
+        "id": "680cd461-abe1-5b65-9e2c-76414f4ae7fb",
+        "author": [
+            "Marijn Haverbeke"
+        ],
+        "cover": "https://res.cloudinary.com/atapas/image/upload/v1622188640/book-covers/Eloquent_JavaScript_qi8gnv.jpg",
+        "description": "JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.",
+        "isbn": 9781593275846,
+        "pages": 472,
+        "published": "2014-12-14T00:00:00.000Z",
+        "publisher": "No Starch Press",
+        "rating": 4.7,
+        "subtitle": "A Modern Introduction to Programming",
+        "topic": "JavaScript",
+        "website": "http://eloquentjavascript.net/"
+    },
+    {
+        "title": "Understanding ECMAScript 6",
+        "id": "ebeb9fa7-79c9-5bff-a104-94441a4e2f49",
+        "author": [
+            "Nicholas C. Zakas"
+        ],
+        "cover": "https://res.cloudinary.com/atapas/image/upload/v1622188640/book-covers/Understanding_ECMAScript_6_frkooy.jpg",
+        "description": "ECMAScript 6 represents the biggest update to the core of JavaScript in the history of the language. In Understanding ECMAScript 6, expert developer Nicholas C. Zakas provides a complete guide to the object types, syntax, and other exciting changes that ECMAScript 6 brings to JavaScript.",
+        "isbn": 9781593277574,
+        "pages": 352,
+        "published": "2016-09-03T00:00:00.000Z",
+        "publisher": "No Starch Press",
+        "rating": 4.5,
+        "subtitle": "The Definitive Guide for JavaScript Developers",
+        "topic": "JavaScript",
+        "website": "https://leanpub.com/understandinges6/read"
+    },
+    {
+        "title": "Git Pocket Guide",
+        "id": "cf685c4d-83d0-592b-add8-19097e121616",
+        "author": [
+            "Richard E. Silverman"
+        ],
+        "cover": "https://res.cloudinary.com/atapas/image/upload/v1622188640/book-covers/Git_Pocket_Guide_mpwh60.jpg",
+        "description": "This pocket guide is the perfect on-the-job companion to Git, the distributed version control system. It provides a compact, readable introduction to Git for new users, as well as a reference to common commands and procedures for those of you with Git experience.",
+        "isbn": 9781449325862,
+        "pages": 234,
+        "published": "2013-08-02T00:00:00.000Z",
+        "publisher": "O'Reilly Media",
+        "rating": 4.3,
+        "subtitle": "A Working Introduction",
+        "topic": "Git",
+        "website": "http://chimera.labs.oreilly.com/books/1230000000561/index.html"
+    },
+    {
+        "title": "Programming JavaScript Applications",
+        "id": "05694261-dbfe-526a-8ada-21b863dd0482",
+        "author": [
+            "Eric Elliott"
+        ],
+        "cover": "https://res.cloudinary.com/atapas/image/upload/v1622188640/book-covers/programming-javascript-applications_cvnndz.jpg",
+        "description": "Take advantage of JavaScript's power to build robust web-scale or enterprise applications that are easy to extend and maintain. By applying the design patterns outlined in this practical book, experienced JavaScript developers will learn how to write flexible and resilient code that's easier-yes, easier-to work with as your code base grows.",
+        "isbn": 9781491950296,
+        "pages": 254,
+        "published": "2014-07-01T00:00:00.000Z",
+        "publisher": "O'Reilly Media",
+        "rating": 4,
+        "subtitle": "Robust Web Architecture with Node, HTML5, and Modern JS Libraries",
+        "topic": "JavaScript",
+        "website": "http://chimera.labs.oreilly.com/books/1234000000262/index.html"
+    },
+    {
+        "title": "Learning JavaScript Design Patterns",
+        "id": "e0269b5b-2557-5465-87bf-ea3d6a047faa",
+        "author": [
+            "Addy Osmani"
+        ],
+        "cover": "https://res.cloudinary.com/atapas/image/upload/v1622188640/book-covers/A_JavaScript_and_jQuery_Developer_Guide_l60nt4.jpg",
+        "description": "With Learning JavaScript Design Patterns, you'll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language. If you want to keep your code efficient, more manageable, and up-to-date with the latest best practices, this book is for you.",
+        "isbn": 9781449331818,
+        "pages": 254,
+        "published": "2012-07-01T00:00:00.000Z",
+        "publisher": "O'Reilly Media",
+        "rating": 4,
+        "subtitle": "A JavaScript and jQuery Developer's Guide",
+        "topic": "JavaScript",
+        "website": "http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/"
+    },
+    {
+        "title": "Speaking JavaScript",
+        "id": "8f02986b-6049-581b-ba21-b4809ab65c01",
+        "author": [
+            "Dr. Axel Rauschmayer"
+        ],
+        "cover": "https://res.cloudinary.com/atapas/image/upload/v1622188640/book-covers/Speaking_JavaScript_isy10u.jpg",
+        "description": "Like it or not, JavaScript is everywhere these days-from browser to server to mobile-and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who once found himself in the same position.",
+        "isbn": 9781449365035,
+        "pages": 460,
+        "published": "2014-02-01T00:00:00.000Z",
+        "publisher": "O'Reilly Media",
+        "rating": 4,
+        "subtitle": "An In-Depth Guide for Programmers",
+        "topic": "JavaScript",
+        "website": "http://speakingjs.com/"
+    },
+    {
+        "title": "Unlocking Android",
+        "id": "165b34bc-c0ab-578b-894d-4ce3dd6365b8",
+        "author": [
+            "W. Frank Ableson",
+            "Charlie Collins",
+            "Robi Sen"
+        ],
+        "cover": "https://res.cloudinary.com/atapas/image/upload/v1622188640/book-covers/android_in_action_blvj6e.jpg",
+        "description": "Unlocking Android: A Developer's Guide provides concise, hands-on instruction for the Android operating system and development tools. This book teaches important architectural concepts in a straightforward writing style and builds on this with practical and useful examples throughout.",
+        "isbn": 1933988673,
+        "pages": 416,
+        "published": "2009-04-01T00:00:00.000-0700",
+        "publisher": "Manning",
+        "rating": 3.9,
+        "subtitle": "A Developer's Guide for the Android operating system and development tools",
+        "topic": "Android",
+        "website": "https://www.manning.com/books/unlocking-android"
+    }
+]
