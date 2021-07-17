@@ -11,8 +11,13 @@
 
 > Please feel free to fork and change the project in whatever ways you need to. If you like the work, please show your support by giving the repo a star(⭐)
 
+### Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
+
+[![Stargazers repo roster for @atapas/flicks](https://reporoster.com/stars/atapas/flicks)](https://github.com/atapas/flicks/stargazers)
+
 ## 💻 Demo
 `Flicks` is deployed on the Gatsby Cloud. You can access it using, [https://flicks.gatsbyjs.io/](https://flicks.gatsbyjs.io/)
+
 ## 📚 Quickstart
 
 1. Clone the project and browse the project repo.
